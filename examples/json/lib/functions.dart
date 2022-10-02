@@ -34,4 +34,5 @@ class GreetingRequest {
 
   @override
   int get hashCode => name.hashCode;
+}
 
