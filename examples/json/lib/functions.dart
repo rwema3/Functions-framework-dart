@@ -51,5 +51,4 @@ class GreetingResponse {
   @override
   bool operator ==(Object other) =>
       other is GreetingResponse &&
-      other.salutation == salutation &&
 
