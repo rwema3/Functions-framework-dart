@@ -37,5 +37,4 @@ class GreetingRequest {
 }
 
 @JsonSerializable()
-class GreetingResponse {
 
