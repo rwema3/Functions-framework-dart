@@ -58,5 +58,4 @@ class GreetingResponse {
   int get hashCode => salutation.hashCode ^ name.hashCode;
 }
 
-@CloudFunction()
 
