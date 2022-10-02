@@ -1,0 +1,15 @@
+# https://github.com/google/mono_repo.dart
+sdk:
+- pubspec
+- dev
+
+stages:
+- analyze_format:
+  - group:
+    - format
+    - analyze: --fatal-infos
+    sdk: dev
+  - analyze:
+    sdk: pubspec
+- unit_test:
+  - test
