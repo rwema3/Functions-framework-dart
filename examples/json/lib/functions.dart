@@ -29,6 +29,4 @@ class GreetingRequest {
   Map<String, dynamic> toJson() => _$GreetingRequestToJson(this);
 
   @override
-  bool operator ==(Object other) =>
-      other is GreetingRequest && other.name == name;
 
