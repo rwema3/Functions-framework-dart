@@ -15,4 +15,5 @@
 import 'package:functions_framework/functions_framework.dart';
 import 'package:json_annotation/json_annotation.dart';
 
+part 'functions.g.dart';
 
