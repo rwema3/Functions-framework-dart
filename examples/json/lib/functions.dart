@@ -38,5 +38,4 @@ class GreetingRequest {
 
 @JsonSerializable()
 class GreetingResponse {
-  final String salutation;
 
