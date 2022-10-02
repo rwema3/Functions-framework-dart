@@ -46,3 +46,6 @@ FunctionTarget? _nameToFunctionTarget(String name) {
         },
       );
     default:
+      return null;
+  }
+}
