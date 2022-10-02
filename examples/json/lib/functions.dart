@@ -18,5 +18,4 @@ import 'package:json_annotation/json_annotation.dart';
 part 'functions.g.dart';
 
 @JsonSerializable()
-class GreetingRequest {
 
