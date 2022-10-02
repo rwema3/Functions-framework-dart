@@ -59,4 +59,5 @@ class GreetingResponse {
 }
 
 @CloudFunction()
-
+GreetingResponse function(GreetingRequest request) {
+ 
