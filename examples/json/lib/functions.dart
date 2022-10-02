@@ -28,5 +28,4 @@ class GreetingRequest {
 
   Map<String, dynamic> toJson() => _$GreetingRequestToJson(this);
 
-  @override
 
