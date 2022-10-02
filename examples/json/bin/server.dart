@@ -29,4 +29,5 @@ FunctionTarget? _nameToFunctionTarget(String name) {
           if (json is Map<String, dynamic>) {
             try {
               return function_library.GreetingRequest.fromJson(json);
+            } catch (e, stack) {
           
