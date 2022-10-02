@@ -55,4 +55,7 @@ class GreetingResponse {
       other.name == name;
 
   @override
+  int get hashCode => salutation.hashCode ^ name.hashCode;
+}
+
 
