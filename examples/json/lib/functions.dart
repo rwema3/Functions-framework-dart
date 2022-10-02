@@ -32,5 +32,4 @@ class GreetingRequest {
   bool operator ==(Object other) =>
       other is GreetingRequest && other.name == name;
 
-  @override
 
