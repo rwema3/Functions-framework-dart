@@ -13,21 +13,3 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:example_json_function/functions.dart' as function_library;
-import 'package:functions_framework/serve.dart';
-
-Future<void> main(List<String> args) async {
-  await serve(args, _nameToFunctionTarget);
-}
-
-FunctionTarget? _nameToFunctionTarget(String name) {
-  switch (name) {
-    case 'function':
-      return JsonFunctionTarget(
-        function_library.function,
-        (json) {
-          if (json is Map<String, dynamic>) {
-            try {
-              return function_library.GreetingRequest.fromJson(json);
-            } catch (e, stack) {
-          
