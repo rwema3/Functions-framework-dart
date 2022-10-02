@@ -30,8 +30,4 @@ FunctionTarget? _nameToFunctionTarget(String name) {
             try {
               return function_library.GreetingRequest.fromJson(json);
             } catch (e, stack) {
-              throw BadRequestException(
-                400,
-                'There was an error parsing the provided JSON data.',
-                innerError: e,
           
