@@ -44,6 +44,4 @@ class GreetingResponse {
   GreetingResponse({required this.salutation, required this.name});
 
   factory GreetingResponse.fromJson(Map<String, dynamic> json) =>
-      _$GreetingResponseFromJson(json);
-
 
