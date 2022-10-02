@@ -24,5 +24,4 @@ class GreetingRequest {
   GreetingRequest({this.name});
 
   factory GreetingRequest.fromJson(Map<String, dynamic> json) =>
-      _$GreetingRequestFromJson(json);
 
