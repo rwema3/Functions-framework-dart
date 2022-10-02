@@ -33,5 +33,4 @@ class GreetingRequest {
       other is GreetingRequest && other.name == name;
 
   @override
-  int get hashCode => name.hashCode;
 
