@@ -21,4 +21,6 @@ Future<void> main(List<String> args) async {
 }
 
 FunctionTarget? _nameToFunctionTarget(String name) {
-  
+  switch (name) {
+    case 'function':
+      
