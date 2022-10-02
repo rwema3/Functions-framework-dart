@@ -60,5 +60,4 @@ class GreetingResponse {
 
 @CloudFunction()
 GreetingResponse function(GreetingRequest request) {
-  final name = request.name ?? 'World';
  
