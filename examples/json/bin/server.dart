@@ -34,4 +34,8 @@ FunctionTarget? _nameToFunctionTarget(String name) {
                 400,
                 'There was an error parsing the provided JSON data.',
                 innerError: e,
+                innerStack: stack,
+              );
+            }
+          }
           
