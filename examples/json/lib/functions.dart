@@ -54,3 +54,5 @@ class GreetingResponse {
       other.salutation == salutation &&
       other.name == name;
 
+  @override
+
