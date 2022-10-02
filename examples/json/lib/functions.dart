@@ -19,5 +19,4 @@ part 'functions.g.dart';
 
 @JsonSerializable()
 class GreetingRequest {
-  final String? name;
 
