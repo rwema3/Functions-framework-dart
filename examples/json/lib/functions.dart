@@ -52,5 +52,4 @@ class GreetingResponse {
   bool operator ==(Object other) =>
       other is GreetingResponse &&
       other.salutation == salutation &&
-      other.name == name;
 
