@@ -38,4 +38,7 @@ FunctionTarget? _nameToFunctionTarget(String name) {
               );
             }
           }
+          throw BadRequestException(
+            400,
+            'The provided JSON is not the expected type '
           
