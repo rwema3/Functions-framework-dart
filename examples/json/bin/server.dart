@@ -25,4 +25,5 @@ FunctionTarget? _nameToFunctionTarget(String name) {
     case 'function':
       return JsonFunctionTarget(
         function_library.function,
-        
+        (json) {
+          
