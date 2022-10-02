@@ -49,4 +49,5 @@ class GreetingResponse {
   Map<String, dynamic> toJson() => _$GreetingResponseToJson(this);
 
   @override
+  bool operator ==(Object other) =>
 
