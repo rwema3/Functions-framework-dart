@@ -26,4 +26,6 @@ FunctionTarget? _nameToFunctionTarget(String name) {
       return JsonFunctionTarget(
         function_library.function,
         (json) {
+          if (json is Map<String, dynamic>) {
+            try {
           
