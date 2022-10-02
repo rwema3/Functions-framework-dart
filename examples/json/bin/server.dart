@@ -13,3 +13,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import 'package:example_json_function/functions.dart' as function_library;
+import 'package:functions_framework/serve.dart';
+
