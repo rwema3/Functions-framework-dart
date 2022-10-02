@@ -46,4 +46,6 @@ class GreetingResponse {
   factory GreetingResponse.fromJson(Map<String, dynamic> json) =>
       _$GreetingResponseFromJson(json);
 
+  Map<String, dynamic> toJson() => _$GreetingResponseToJson(this);
+
 
