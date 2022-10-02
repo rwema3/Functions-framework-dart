@@ -44,5 +44,3 @@ FunctionTarget? _nameToFunctionTarget(String name) {
             '`Map<String, dynamic>`.',
           );
         },
-      );
-    default:
