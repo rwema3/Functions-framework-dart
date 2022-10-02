@@ -21,6 +21,4 @@ part 'functions.g.dart';
 class GreetingRequest {
   final String? name;
 
-  GreetingRequest({this.name});
-
 
