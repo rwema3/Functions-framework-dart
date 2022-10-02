@@ -41,4 +41,6 @@ class GreetingResponse {
   final String salutation;
   final String name;
 
+  GreetingResponse({required this.salutation, required this.name});
+
 
