@@ -62,4 +62,5 @@ class GreetingResponse {
 GreetingResponse function(GreetingRequest request) {
   final name = request.name ?? 'World';
   final json = GreetingResponse(salutation: 'Hello', name: name);
- 
+  return json;
+}
